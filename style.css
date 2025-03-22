@@ -1,0 +1,109 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#input{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wWRq4BUyA7gjSO8grEZSzP81oYkkRNQERA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:pink;
+}
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 2em;
+    margin: 10px;
+
+}
+
+#number{
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+
+}
+
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color:green;
+    color: whitesmoke;
+}
+
+.Circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    height: 50px;
+    width:50px;
+    border-radius:50%;
+    margin:10px;
+    text-align: center;
+    background-color:red;
+
+}
+.Square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    height: 50px;
+    width:50px;
+    margin:10px;
+    text-align: center;
+    background-color:yellow;
+
+}
+.Rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    height: 50px;
+    width:80px;
+
+    margin:10px;
+    text-align: center;
+    background-color:blue;
+
+}
+.Triangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    background-color:red;
+    border-left: 50px;
+    border-bottom: 20px;
+    border-right: 20px;
+}
